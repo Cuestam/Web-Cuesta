@@ -364,7 +364,7 @@ footer .footerDos {
   margin-left: 8em;
   margin-top: auto;
 }
-.proyecto-1 .container h3 {
+.proyecto-1 .container h1 {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 3em;
@@ -931,6 +931,10 @@ body {
   }
   .proyecto-1 .container-imagenes .imagen-chica .imagen2 {
     margin-left: 0em;
+  }
+
+  .navegacion-2 {
+    display: none;
   }
 
   .footer-proyectos {
