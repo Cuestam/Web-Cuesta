@@ -1,4 +1,3 @@
-
 //header
 .enlaces-p {
     display: flex;
@@ -46,47 +45,14 @@
 
         }
     }
- 
+
 }
 
-.hamburguer{
+.hamburguer {
     display: none;
 }
 
-.whatsapp-p{
-    
-        display: block;
-        position: absolute;
-        top: 31em;
-        position: sticky;
-        z-index: 999;
-        text-align: right;
-        margin-right: 2em;
-    
-        a {
-            
-            text-decoration: none;
-    
-            img {
-                right: 2em;
-                width: 4.5%;
-    
-            }
-        }
-        p {  
-            display:block;
-            margin-top: 1em;
-            font-size: 0.8em;
-            font-family: 'Montserrat', sans-serif;
-            text-transform: uppercase;
-            color: seashell;
-            margin-right: -1em;
-        }
-    }
-
-
 //Imagenes 
-
 
 .proyecto-1 {
 
@@ -116,7 +82,7 @@
             .estado-1 {
                 display: block;
                 font-family: 'Raleway', sans-serif;
-                color:gray;
+                color: gray;
                 font-size: 0.9em;
                 margin-top: -1em;
                 margin-left: 0.5em;
@@ -127,6 +93,7 @@
 
     .container-imagenes {
         height: auto;
+
         .imagen1 {
             width: 80%;
             margin-left: 8em;
@@ -178,11 +145,14 @@
     position: absolute;
     position: fixed;
     top: 18em;
-     
+
     .anterior {
         text-align: start;
+
         a {
-            display: fixed;img {
+            display: fixed;
+
+            img {
                 width: 15%;
                 padding: 2em;
 
@@ -196,6 +166,7 @@
     .siguiente {
         margin-left: 7em;
         text-align: right;
+
         a {
             img {
                 width: 15%;
@@ -211,20 +182,21 @@
 
 }
 
-    //Footer
-    .footer-proyectos {
-        background-color: $color-rgba;
-        height: 4em;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-       
-        
-       .footerUno {
-            margin-top: 3em;
-        }
-       .footerDos {
-            margin-top: 1em;
-        }
+//Footer
+.footer-proyectos {
+    background-color: $color-rgba;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+
+    .footerUno {
+        margin-top: 3em;
     }
+
+    .footerDos {
+        margin-top: 1em;
+    }
+
+}
