@@ -356,7 +356,29 @@ footer .footerDos {
 }
 
 .whatsapp-p {
-  top: 3em;
+  display: block;
+  position: absolute;
+  top: 31em;
+  position: sticky;
+  z-index: 999;
+  text-align: right;
+  margin-right: 2em;
+}
+.whatsapp-p a {
+  text-decoration: none;
+}
+.whatsapp-p a img {
+  right: 2em;
+  width: 4.5%;
+}
+.whatsapp-p p {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.8em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: seashell;
+  margin-right: -1em;
 }
 
 .proyecto-1 .container {
@@ -465,7 +487,6 @@ footer .footerDos {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 .footer-proyectos .footerUno {
   margin-top: 3em;
