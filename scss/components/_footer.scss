@@ -1,0 +1,29 @@
+@import '../base/variables';
+
+footer{
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-rgba;
+
+    .footerUno{
+        display: inline-block;
+        margin-left: 6em;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        color: white;
+        margin-top: 5em;
+        margin-bottom: 3em;
+    }
+    .footerDos{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 10px;
+        margin-right: 6em;
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+}

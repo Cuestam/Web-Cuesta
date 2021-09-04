@@ -1,0 +1,202 @@
+
+//header
+.enlaces-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-rgba;
+    position: fixed;
+    z-index: 999;
+    transition: ease-in-out 0.5s;
+    top: 0;
+
+    img {
+        width: 3%;
+        margin-left: 1.5em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    ul {
+        li {
+            display: inline-block;
+            margin-top: 1em;
+            text-decoration: none;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1em;
+                margin-right: 1em;
+                text-decoration: none;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+
+                &:hover,
+                &::before {
+                    background-size: 100% 2px;
+                    color: white;
+                }
+
+            }
+
+        }
+    }
+ 
+}
+
+.hamburguer{
+    display: none;
+}
+
+.whatsapp-p{
+   top: 3em ;
+}
+
+//Imagenes 
+
+
+.proyecto-1 {
+
+    .container {
+        margin-bottom: 1.5em;
+        margin-left: 8em;
+        margin-top: auto;
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        div {
+            .cliente-1 {
+                display: inline-block;
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                font-size: 15px;
+                margin-top: 0px;
+                text-transform: uppercase;
+                margin-left: 0.5em;
+            }
+
+            .estado-1 {
+                display: block;
+                font-family: 'Raleway', sans-serif;
+                color:gray;
+                font-size: 0.9em;
+                margin-top: -1em;
+                margin-left: 0.5em;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .container-imagenes {
+        height: auto;
+        .imagen1 {
+            width: 80%;
+            margin-left: 8em;
+            margin-top: 1em;
+        }
+
+        .container-concepto {
+            width: 60%;
+            margin-left: 15em;
+
+            .descripcion {
+                display: block;
+                font-family: 'Raleway', sans-serif;
+                color: white;
+                font-size: 15px;
+                margin-top: 1em;
+                line-height: 1.2em;
+            }
+
+            .concepto {
+                margin-top: 2em;
+                color: white;
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+        }
+
+        .imagen-chica {
+            margin-left: 8em;
+
+            img {
+                width: 40%;
+                margin-top: 1em;
+            }
+
+            .imagen2 {
+                margin-left: 6.1em;
+            }
+        }
+    }
+}
+
+//Navegacion
+.navegacion-2 {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    top: 18em;
+     
+    .anterior {
+        text-align: start;
+        a {
+            display: fixed;img {
+                width: 15%;
+                padding: 2em;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+
+    .siguiente {
+        margin-left: 7em;
+        text-align: right;
+        a {
+            img {
+                width: 15%;
+                padding: 2em;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+
+        }
+    }
+
+}
+
+    //Footer
+    .footer-proyectos {
+        background-color: $color-rgba;
+        height: 4em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        
+       .footerUno {
+            margin-top: 3em;
+        }
+       .footerDos {
+            margin-top: 1em;
+        }
+
+    }

@@ -1,0 +1,111 @@
+
+
+.contacto {
+    display: inline-block;
+    margin-top: auto;
+    background-color: $color-rgba;
+
+   .titulo-contacto {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: $font-titulos;
+        padding: 10px;
+        margin-left: 1em;
+        
+    }
+
+    div {
+        iframe {
+            height: 200px;
+            width: 200px;
+            position: relative;
+            left: 3em;
+            top: 1em;
+            float: left;
+        }
+
+    }
+
+    div {  
+        
+        .contacto-1 {
+            display: inline-block;
+            color: white;
+            line-height: 18px;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 90px;
+
+            .direccion {
+                font-size: $font-contacto;
+                color: $color-gray;
+                font-family: 'Raleway', sans-serif;
+                margin-top: -1em;
+            }
+
+        }
+
+        .contacto-2 {
+            display: inline-block;
+            color: white;
+            line-height: 18px;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 50px;
+            margin-top: 1em;
+
+            .telefono {
+                font-size: $font-contacto;
+                color: $color-gray;
+                font-family: 'Raleway', sans-serif;
+                margin-top: -1em;
+                
+            }
+        }
+
+        .contacto-3 {
+            display: inline-block;
+            color: white;
+            line-height: 18px;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 50px;
+
+            .contratistas {
+                font-size: $font-contacto;
+                color: $color-gray;
+                font-family: 'Raleway', sans-serif;
+                margin-top: -1em;
+            }
+        }
+
+    }
+
+    .redes {
+        display:block;
+        word-spacing: 10px;
+        width: 100%;
+        margin-left: 16em;
+        margin-top: -11em;
+       
+        ul{
+           
+        a { 
+            width: 100%;
+            img {
+                width: 25px;
+            }
+        }
+    }
+    }
+
+    .texto-1 {
+        display:block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        margin-left: 12em;
+        margin-right: 22em;
+        margin-top: 3em;
+        margin-bottom: 1em;
+        color: white;
+        padding-bottom: 1em;
+        
+    }
+}

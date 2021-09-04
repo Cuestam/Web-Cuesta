@@ -1,0 +1,625 @@
+@media only screen and (min-width: 577px) and (max-width:1024px) {
+
+    Header {
+        nav {
+            position: absolute;
+
+            ul {
+                margin-right: 26em;
+            }
+        }
+
+
+        .titulo-h1 {
+            margin-left: 0em;
+            font-size: 6em;
+            width: 100%;
+            margin-bottom: -1em;
+        }
+
+    }
+
+    .modal {
+        background-color: black;
+
+        .modal-style {
+            width: 150%;
+            height: 60%;
+            margin-left: -7em;
+            margin-right: 10em;
+            margin-top: 3em;
+            background-color: rgb(43, 43, 43);
+        }
+    }
+
+    .whatsapp {
+        display: none;
+
+    }
+
+    //Nosotros
+    .presentacion {
+        margin-bottom: auto;
+
+        h2 {
+            margin-bottom: 1em;
+        }
+
+        .parrafo1 p {
+            margin-left: 1em;
+            margin-right: auto;
+        }
+
+        .container-parrafos {
+            display: inline-block;
+            margin-top: 2.5em;
+            margin-left: 1em;
+            margin-right: auto;
+            width: 100%;
+            justify-content: space-evenly;
+
+            .parrafo2 {
+                margin-top: -1.2em;
+                margin-left: 1em;
+                word-spacing: 2px;
+                letter-spacing: 0px;
+                font-size: 1.2em;
+                line-height: 1.6em;
+            }
+
+            .parrafo3 {
+                margin-left: 1em;
+                letter-spacing: 0px;
+                font-size: 1.2em;
+                margin-right: 0px;
+            }
+        }
+    }
+
+    //Proyectos
+    section {
+        margin-top: auto;
+        margin-bottom: auto;
+
+        .container-titulo {
+            h2 {
+                margin-top: auto;
+                color: white;
+                display: block;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2.5em;
+                margin-left: 1em;
+            }
+        }
+
+        .container-proyectos {
+            p {
+                margin-left: 1em;
+            }
+
+            h3 {
+                margin-left: 1em;
+            }
+
+            a {
+                img {
+                    width: 95%;
+                    filter: grayscale(0%);
+
+                    &:hover {
+                        transition: none;
+                        transform: none;
+                        filter: none;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    //contacto
+
+    .contacto {
+        width: 100%;
+        margin-top: auto;
+
+        .texto-1 {
+            display: none;
+        }
+
+        .datos {
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .contacto-1 {
+                margin-right: 0;
+                margin-left: 3em;
+            }
+
+            .contacto-2 {
+                margin-top: 0em;
+            }
+
+            .contacto-3 {
+                margin-top: 0em;
+            }
+        }
+
+        .redes {
+            word-spacing: 10px;
+            margin-top: 0em;
+            margin-left: 16em;
+            margin-bottom: 0em;
+        }
+    }
+
+    //Pagina proyectos
+
+.enlaces-p{
+
+    ul {
+        margin-right: 3em;
+
+        li {
+            display: inline-block;
+            margin-top: 1em;
+            text-decoration: none;
+
+            a {
+                font-size: 1em;
+                margin-right: 1em;
+                 
+            }
+
+        }
+    }
+}
+
+    .proyecto-1 {
+        .container {
+            margin-bottom: 1.5em;
+            margin-left: 2em;
+
+            h3 {
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                font-size: 3em;
+                margin-top: 2em;
+                text-transform: uppercase;
+            }
+
+            div {
+                .cliente-1 {
+                    display: inline-block;
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 15px;
+                    text-transform: uppercase;
+                    margin-left: 0.5em;
+                }
+
+                .estado-1 {
+                    display: block;
+                    font-family: 'Raleway', sans-serif;
+                    color: white;
+                    font-size: 15px;
+                    margin-left: 0.5em;
+                }
+            }
+        }
+
+        .container-imagenes {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+
+            .imagen1 {
+                width: 90%;
+                margin-left: 3em;
+                margin-top: 4em;
+                margin-right: auto;
+            }
+
+            .container-concepto {
+                width: 100%;
+                margin-left: 2em;
+                margin-right: auto;
+
+                .descripcion {
+
+                    font-size: 1.5em;
+                    margin: 1em 2em 0em 1em;
+                }
+
+                .concepto {
+                    margin-left: 1em;
+                    margin-top: 2em;
+                    font-size: 2em;
+                    text-transform: uppercase;
+                }
+            }
+
+            .imagen-chica {
+                margin-left: 3em;
+
+                img {
+                    width: 45%;
+                    margin-top: 4em;
+                }
+
+                .imagen2 {
+                    margin-left: 3em;
+                }
+            }
+        }
+    }
+
+    .navegacion-2 {
+        display: none;
+    }
+
+    .footer-proyectos{
+        .footerUno{
+             margin-left: 5em;
+        }
+        .footerDos{
+           margin-right: 5em;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 577px) and (max-width:769px) {
+
+    //heaeder
+
+    header {
+        .titulo-h1 {
+            margin-left: 0em;
+            font-size: 6em;
+        }
+    }
+
+    //Proyectos
+
+    section {
+        margin-right: auto;
+        margin-bottom: -10em;
+
+        .container-titulo {
+            margin-top: 1.5em;
+        }
+
+    }
+
+    .contacto {
+        margin-top: 10em;
+    }
+
+
+
+    .footer-proyectos {
+        margin-top: 10em;
+        height: 4em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+      
+     
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    //Header
+
+    header {
+
+        .enlaces {
+            display: none !important;
+        }
+
+        .hamburguer {
+            display: inline-block !important;
+            z-index: 10000;
+            width: 100% !important;
+            margin-top: 0em;
+
+            ul {
+                li {
+                    text-align: center;
+                    margin-top: 2em;
+
+                    a {
+
+                        color: white;
+                        text-decoration: none;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1em;
+                        margin-right: 1em;
+
+                    }
+                }
+            }
+        }
+
+        .titulo-h1 {
+            margin-left: 0em;
+            font-size: 3.5em;
+        }
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    //nosotros
+    .presentacion {
+        h2 {
+            margin-left: 0em;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+
+        .parrafo1 {
+            p {
+                margin-left: 1em;
+                margin-right: auto;
+            }
+        }
+
+        .container-parrafos {
+            display: grid;
+            margin-top: auto;
+            margin-left: 0em;
+            width: 100%;
+            justify-content: space-evenly;
+
+            .parrafo2 {
+                word-spacing: 2px;
+                letter-spacing: 0px;
+                font-size: 1.2em;
+                line-height: 1.6em;
+                margin-left: 1em;
+            }
+
+            .parrafo3 {
+                margin-left: 1em;
+                letter-spacing: 0px;
+                font-size: 1.2em;
+                margin-right: 0px;
+            }
+        }
+    }
+
+    //Proyectos
+
+    .enlaces-p {
+        display: none;
+    }
+
+    section {
+        .container-titulo {
+            h2 {
+                margin-top: 10.5em;
+                margin-bottom: 1em;
+                color: white;
+                display: block;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2em;
+                margin-left: 0.5em;
+            }
+        }
+
+        .whatsapp {
+            display: none;
+        }
+
+        .container-proyectos {
+            display: grid;
+            margin-top: auto;
+            grid-template-columns: 1fr;
+            text-align: center;
+
+            h3 {
+                margin-left: 1em;
+            }
+
+            p {
+                margin-left: 1em;
+            }
+
+            a {
+                img {
+                    width: 95%;
+                    filter: none;
+
+                    &:hover {
+                        transition: none;
+                        transform: none;
+                        filter: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    //contacto
+
+    .contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 3.5em;
+        margin-bottom: 0em;
+        margin-left: -4em;
+        height: auto;
+
+        .titulo-contacto {
+            margin-left: 2em;
+            margin-top: 0em;
+        }
+
+        div {
+            iframe {
+
+                margin-top: -1em;
+                position: relative;
+                left: 5em;
+                width: 80%;
+            }
+        }
+
+        .datos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 2em;
+            margin-left: 0em;
+
+            .contacto-2 {
+                margin-left: 5.5em;
+                margin-top: 0.5em;
+            }
+
+            .contacto-3 {
+                margin-left: 5.5em;
+                margin-top: 0.5em;
+            }
+
+            .texto-1 {
+                display: none;
+            }
+        }
+
+        .redes {
+            word-spacing: 10px;
+            margin-top: 1em;
+            padding-bottom: 1em;
+            margin-left: 4em;
+        }
+
+        .texto-1 {
+            display: none;
+        }
+
+    }
+
+    footer {
+        display: flex;
+        margin-top: -3em;
+        align-items: center;
+
+        .footerUno {
+            margin-left: 1em;
+        }
+
+        .footerDos {
+            margin-left: 5em;
+            margin-right: auto;
+        }
+    }
+
+
+
+
+    //Pagina proyectos
+
+    .proyecto-1 {
+        .container {
+            height: auto;
+            margin-top: 0em;
+            margin-bottom: 1.5em;
+            margin-left: 0em;
+
+            h3 {
+                margin-top: 0.5em;
+            }
+
+            div {
+
+
+                .cliente-1 {
+                    margin-top: 1em;
+                    margin-left: 0.5em;
+                    margin-bottom: 0em;
+                }
+
+                .estado-1 {
+                    margin-left: 0.5em;
+                    margin-bottom: 0.8em;
+                    margin-top: 0em;
+                }
+            }
+        }
+
+        .container-imagenes {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            margin-top: -2em;
+            height: 100%;
+
+            .imagen1 {
+                width: 90%;
+                margin-left: 1em;
+                margin-top: 2em;
+                margin-right: auto;
+            }
+
+            .container-concepto {
+                width: 100%;
+                margin-left: 1em;
+                margin-right: auto;
+
+                .descripcion {
+
+                    font-size: 1em;
+                    margin: 1em 2em 0em 0em;
+                }
+
+                .concepto {
+                    margin-left: 0em;
+                    margin-top: 1em;
+                    font-size: 1.5em;
+
+                }
+            }
+
+            .imagen-chica {
+                margin-left: 2em;
+
+                img {
+                    width: 90%;
+                    margin-top: 1em;
+
+                }
+
+                .imagen2 {
+                    margin-left: 0em;
+                }
+            }
+        }
+    }
+
+    .footer-proyectos {
+        margin-top: 0em;
+
+        .footerUno {
+            width: 100%;
+            margin-right: 0em;
+            margin-left: 1em;
+        }
+        .footerDos {
+            margin-top: 1em;
+            margin-left: -15em;
+            margin-right: 2em;
+        }
+    }
+
+}

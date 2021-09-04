@@ -1,0 +1,64 @@
+section {
+    .container-titulo {
+        display: block;
+        margin-top: auto;
+
+        h2 {
+            margin-top: 0.5em;
+            color: white;
+            display: block;
+            font-family: 'Montserrat', sans-serif;
+            font-size: $font-titulos;
+            margin-left: 1em;
+        }
+    }
+
+    .container-proyectos {
+        display: grid;
+        margin-top: 3em;
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+
+        h3 {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-top: 1em;
+            text-align: justify;
+            margin-left: 5.2em;
+        }
+
+        p {
+            font-size: $font-contacto;
+            color: gray;
+            text-transform: uppercase;
+            text-align: left;
+            margin-top: -0.7em;
+            margin-left: 6em;
+        }
+
+        a {
+
+            img {
+                width: 80%;
+                filter: grayscale(100%);
+                z-index: -1;
+
+                &:hover {
+                    transition: 1s;
+                    transform: scale(1.05);
+                    filter: grayscale(0%);
+                    z-index: -1;
+                }
+
+            }
+
+
+        }
+
+
+    }
+
+}

@@ -1,0 +1,19 @@
+.modal-style {
+    width: 50em;
+    height: 33em;
+    display: inline-block;
+    margin-left: -12em;
+    margin-top: 3em;
+    background-color: rgb(20, 20, 20);
+    opacity: 0.95;
+
+    .modal-title {
+        color: white;
+    }
+
+    .texto-modal {
+        margin-bottom: 1em;
+        display: block;
+        color: white;
+    }
+}
