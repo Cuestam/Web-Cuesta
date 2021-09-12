@@ -6,6 +6,8 @@
     width: 100%;
     border-bottom: solid white 2px;
     opacity: 0.9;
+    position: relative;
+    z-index: 99;
 
     .enlaces {
         display: flex;
@@ -13,15 +15,33 @@
         align-items: center;
         background-color: $color-rgba;
         position: fixed;
-        z-index: 99999 !important;
-        transition: ease-in-out 0.5s;
-        top: 0;
 
-        ul { 
+        ul {
             li {
                 display: inline-block;
                 margin-top: 1em;
                 text-decoration: none;
+
+                button {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1em;
+                    margin-right: 1em;
+                    background-image: linear-gradient(currentColor, currentColor);
+                    background-position: 0% 100%;
+                    background-repeat: no-repeat;
+                    background-size: 0% 2px;
+                    transition: background-size .3s;
+
+                    &:hover,
+                    &::before {
+                        background-size: 100% 2px;
+                        color: gold;
+                    }
+                }
 
                 a {
                     color: white;
@@ -39,7 +59,8 @@
                     &:hover,
                     &::before {
                         background-size: 100% 2px;
-                        color: white;
+                        color: gold;
+
                     }
                 }
             }
@@ -47,7 +68,7 @@
     }
 
     img {
-        width: 3%;
+        width: 3.5%;
         margin-left: 1.5em;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
@@ -55,11 +76,9 @@
 
     h1 {
         display: inline-block;
-        margin-top: 4.5em;
+        margin-top: 6em;
         color: white;
         margin-left: 0.5em;
-        margin-right: 4em;
-        padding-bottom: 1em;
         font-size: 5.5em;
         font-family: 'Montserrat', sans-serif;
     }
@@ -68,34 +87,4 @@
         display: none;
     }
 
-}
-
-.whatsapp {
-    display: block;
-    position: absolute;
-    top: 31em;
-    position: sticky;
-    z-index: 999;
-    text-align: right;
-    margin-right: 2em;
-
-    a {
-        
-        text-decoration: none;
-
-        img {
-            right: 2em;
-            width: 4.5%;
-
-        }
-    }
-    p {  
-        display:block;
-        margin-top: 1em;
-        font-size: 0.8em;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        color: seashell;
-        margin-right: -1em;
-    }
 }

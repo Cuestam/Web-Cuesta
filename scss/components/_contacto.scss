@@ -1,17 +1,17 @@
-
-
 .contacto {
     display: inline-block;
     margin-top: auto;
     background-color: $color-rgba;
+    width: 100%;
 
-   .titulo-contacto {
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        font-size: $font-titulos;
-        padding: 10px;
-        margin-left: 1em;
-        
+    .titulo-contacto {
+        background-color: white;
+        width: 40%;
+
+        h2{
+       margin: 0.5em 0em 1em 1em;
+       @include PropiedadesTitulos(uppercase, 'Montserrat',black, $font-titulos);
+    }
     }
 
     div {
@@ -26,8 +26,8 @@
 
     }
 
-    div {  
-        
+    div {
+
         .contacto-1 {
             display: inline-block;
             color: white;
@@ -57,7 +57,7 @@
                 color: $color-gray;
                 font-family: 'Raleway', sans-serif;
                 margin-top: -1em;
-                
+
             }
         }
 
@@ -78,34 +78,37 @@
 
     }
 
-    .redes {
-        display:block;
-        word-spacing: 10px;
-        width: 100%;
-        margin-left: 16em;
-        margin-top: -11em;
-       
-        ul{
-           
-        a { 
-            width: 100%;
-            img {
-                width: 25px;
-            }
-        }
-    }
-    }
-
     .texto-1 {
-        display:block;
+        display: block;
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
-        margin-left: 12em;
-        margin-right: 22em;
-        margin-top: 3em;
-        margin-bottom: 1em;
         color: white;
-        padding-bottom: 1em;
-        
+        margin-left: 12em;
+        margin-right: 12em;
+        margin-top: 0.5em;
     }
+    
+.redes{
+    display: flex;
+    margin-top: 2em;
+    width: 30em;
+    margin-left: 15em;
+    li{
+      display:block;
+      text-decoration: none;
+      margin-left: 1em;
+     i {
+          font-size: 30px;
+          color:white;
+
+          &:hover {
+              color: gold;
+          }
+      }
+    }
+
 }
+
+}
+
+

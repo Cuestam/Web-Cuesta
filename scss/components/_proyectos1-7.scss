@@ -9,11 +9,10 @@
     transition: ease-in-out 0.5s;
     top: 0;
 
+
     img {
-        width: 3%;
-        margin-left: 1.5em;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
+        width: 3.5%;
+        margin: 0.5em 0em 0.5em 1.5em;
     }
 
     ul {
@@ -21,6 +20,27 @@
             display: inline-block;
             margin-top: 1em;
             text-decoration: none;
+
+            button {
+                background: none;
+                border: none;
+                cursor: pointer;
+                color: white;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1em;
+                margin-right: 1em;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+
+                &:hover,
+                &::before {
+                    background-size: 100% 2px;
+                    color: gold;
+                }
+            }
 
             a {
                 color: white;
@@ -38,7 +58,7 @@
                 &:hover,
                 &::before {
                     background-size: 100% 2px;
-                    color: white;
+                    color: gold;
                 }
 
             }
@@ -55,18 +75,22 @@
 //Imagenes 
 
 .proyecto-1 {
+    margin-top: 7em;
 
-    .container {
-        margin-bottom: 1.5em;
-        margin-left: 8em;
-        margin-top: auto;
+    .titulo-casa {
+        background-color: white;
+        width: 40%;
 
         h1 {
-            font-family: 'Montserrat', sans-serif;
-            color: white;
-            font-size: 3em;
-            text-transform: uppercase;
+            margin-top: 0.5em;
+            margin-left: 3.5em;
+            @include PropiedadesTitulos(uppercase, 'Montserrat',black, 2.5em);
         }
+    }
+
+
+    .container {
+        margin: 2em 0em 1.5em 8em;
 
         div {
             .cliente-1 {
@@ -92,17 +116,24 @@
     }
 
     .container-imagenes {
-        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
 
         .imagen1 {
             width: 80%;
-            margin-left: 8em;
-            margin-top: 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
         }
 
         .container-concepto {
             width: 60%;
-            margin-left: 15em;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+
 
             .descripcion {
                 display: block;
@@ -111,6 +142,7 @@
                 font-size: 15px;
                 margin-top: 1em;
                 line-height: 1.2em;
+                margin-left: auto;
             }
 
             .concepto {
@@ -124,15 +156,8 @@
         }
 
         .imagen-chica {
-            margin-left: 8em;
-
             img {
                 width: 40%;
-                margin-top: 1em;
-            }
-
-            .imagen2 {
-                margin-left: 6.1em;
             }
         }
     }
@@ -140,20 +165,18 @@
 
 //Navegacion
 .navegacion-2 {
-    display: flex;
+    display: block;
     width: 100%;
-    position: absolute;
     position: fixed;
-    top: 18em;
+    top: 12em;
 
     .anterior {
-        text-align: start;
 
         a {
-            display: fixed;
 
             img {
-                width: 15%;
+                float: left;
+                width: 95px;
                 padding: 2em;
 
                 &:hover {
@@ -164,12 +187,12 @@
     }
 
     .siguiente {
-        margin-left: 7em;
-        text-align: right;
+        margin-left: 0em;
 
         a {
             img {
-                width: 15%;
+                float: right;
+                width: 95px;
                 padding: 2em;
 
                 &:hover {
@@ -190,10 +213,6 @@
     justify-content: space-between;
     align-items: center;
 
-
-    .footerUno {
-        margin-top: 3em;
-    }
 
     .footerDos {
         margin-top: 1em;

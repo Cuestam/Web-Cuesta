@@ -1,0 +1,6 @@
+@mixin PropiedadesTitulos ($text-transform, $font-family, $color, $font-size){
+ text-transform: $text-transform;
+ font-family: $font-family;
+ color:$color;
+ font-size: $font-size;
+} 
