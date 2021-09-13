@@ -189,7 +189,7 @@
         }
     }
 
-    .footer-proyectos {
+    footer {
         margin-top: 0em;
         .footerUno {
             margin-top: 3em;
@@ -652,10 +652,13 @@
         display: flex;
         margin-top: 0em;
         align-items: center;
+        height: 80%;
+        
 
         .footerUno {
             margin-top: 2em;
             margin-left: 2em;
+            
         }
 
         .footerDos {

@@ -651,13 +651,13 @@ body {
     margin-bottom: 0em;
   }
 
-  .footer-proyectos {
+  footer {
     margin-top: 0em;
   }
-  .footer-proyectos .footerUno {
+  footer .footerUno {
     margin-top: 3em;
   }
-  .footer-proyectos .footerDos {
+  footer .footerDos {
     margin-top: 3em;
   }
 
@@ -985,6 +985,7 @@ body {
     display: flex;
     margin-top: 0em;
     align-items: center;
+    height: 80%;
   }
   footer .footerUno {
     margin-top: 2em;
