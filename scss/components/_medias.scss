@@ -754,15 +754,20 @@
     .footer-proyectos {
         margin-top: -0.05em;
         width: 100%;
+        height: 80%;
+        margin-bottom: 0em;
+       
         .footerUno {
             margin-right: 0em;
             margin-left: 2em;
+            margin-top: 0em;
         }
 
         .footerDos {
             margin-top: 0em;
-            margin-left: -15em;
+            margin-left: 1em;
             margin-right: 2em;
+            
         }
     }
 
