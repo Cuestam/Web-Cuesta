@@ -154,7 +154,7 @@
     .contacto {
         width: 100%;
         margin-top: auto;
-
+     
         .texto-1 {
             display: none;
         }
@@ -189,12 +189,22 @@
         }
     }
 
+    .footer-proyectos {
+        margin-top: 0em;
+        .footerUno {
+            margin-top: 3em;
+        }
+        .footerDos {
+            margin-top: 3em;
+        }
+    }
+
     //Pagina proyectos
 
     .enlaces-p {
         
         ul {
-          
+              margin-right: 0.5em;
             li {
                 display: inline-block;
                 margin-top: 1em;
@@ -368,11 +378,10 @@
     body {
         background-image: url('/imagenes/fondo5.webp');
     }
+
     //Header
-    .container-uno {
-
-        background-image: url('/imagenes/Fondo1.jpg');
-
+    header {
+        
         .enlaces {
             display: none !important;
         }
@@ -384,9 +393,9 @@
             margin-top: 0em;
            
             ul {
-                li {
+                li { 
                     text-align: center;
-                    margin-top: 2em;
+                    margin-top: 4em;
 
                     a {
 
@@ -564,7 +573,7 @@
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 1em;
-        margin-bottom: 1em;
+        margin-bottom: 0em;
         margin-left: 0em;
         height: auto;
         width: 100%;
@@ -584,7 +593,7 @@
 
         div {
             iframe {
-                margin-top: 1em;
+                margin-top: 2em;
                 position: relative;
                 left: 2em;
                 width: 60%;
@@ -616,8 +625,8 @@
 
         .redes {
             word-spacing: 10px;
-            margin-top: 0em;
-            padding-bottom: 1em;
+            margin-top: 1em;
+            padding-bottom: 0em;
             margin-left: -1em;
             margin-right: 0em;
             width: 200px;
@@ -641,16 +650,18 @@
 
     footer {
         display: flex;
-        margin-top: -3em;
+        margin-top: 0em;
         align-items: center;
 
         .footerUno {
+            margin-top: 2em;
             margin-left: 2em;
         }
 
         .footerDos {
-            margin-left: 5em;
-            margin-right: auto;
+            margin-top: 2em;
+            margin-left: 0em;
+            margin-right: 2em;
         }
     }
 
@@ -737,11 +748,11 @@
     }
 
     .contacto{
-        margin-bottom: -2em;
+        margin-bottom: 0em;
     }
 
     .footer-proyectos {
-        margin-top: 0em;
+        margin-top: -0.05em;
         width: 100%;
         .footerUno {
             margin-right: 0em;
@@ -749,7 +760,7 @@
         }
 
         .footerDos {
-            margin-top: 1em;
+            margin-top: 0em;
             margin-left: -15em;
             margin-right: 2em;
         }

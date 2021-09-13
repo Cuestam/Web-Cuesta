@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
 .container-uno {
-  background-image: url("/imagenes/fondogif.gif");
+  background-image: url("/imagenes/Fondo1.webp");
   background-size: cover;
   width: 100%;
   border-bottom: solid white 2px;
@@ -16,6 +16,9 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.829);
   position: fixed;
+}
+.container-uno .enlaces ul {
+  margin-right: 0em;
 }
 .container-uno .enlaces ul li {
   display: inline-block;
@@ -73,6 +76,10 @@
 }
 .container-uno .hamburguer {
   display: none;
+}
+
+.animate__animated.animate__slideInLeft {
+  --animate-duration: 2s;
 }
 
 .modal-style {
@@ -329,6 +336,9 @@ footer .footerDos:hover {
   width: 3.5%;
   margin: 0.5em 0em 0.5em 1.5em;
 }
+.enlaces-p ul {
+  margin-right: 2.5em;
+}
 .enlaces-p ul li {
   display: inline-block;
   margin-top: 1em;
@@ -453,7 +463,7 @@ footer .footerDos:hover {
   display: block;
   width: 100%;
   position: fixed;
-  top: 12em;
+  top: 16em;
 }
 .navegacion-2 .anterior a img {
   float: left;
@@ -641,6 +651,19 @@ body {
     margin-bottom: 0em;
   }
 
+  .footer-proyectos {
+    margin-top: 0em;
+  }
+  .footer-proyectos .footerUno {
+    margin-top: 3em;
+  }
+  .footer-proyectos .footerDos {
+    margin-top: 3em;
+  }
+
+  .enlaces-p ul {
+    margin-right: 0.5em;
+  }
   .enlaces-p ul li {
     display: inline-block;
     margin-top: 1em;
@@ -757,30 +780,27 @@ body {
     background-image: url("/imagenes/fondo5.webp");
   }
 
-  .container-uno {
-    background-image: url("/imagenes/Fondo1.jpg");
-  }
-  .container-uno .enlaces {
+  header .enlaces {
     display: none !important;
   }
-  .container-uno .hamburguer {
+  header .hamburguer {
     display: inline-block !important;
     z-index: 10000;
     width: 100% !important;
     margin-top: 0em;
   }
-  .container-uno .hamburguer ul li {
+  header .hamburguer ul li {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 4em;
   }
-  .container-uno .hamburguer ul li a {
+  header .hamburguer ul li a {
     color: white;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
     margin-right: 1em;
   }
-  .container-uno .titulo-h1 {
+  header .titulo-h1 {
     margin-top: 7em;
     margin-left: 0em;
     font-size: 2.5em;
@@ -906,7 +926,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     margin-left: 0em;
     height: auto;
     width: 100%;
@@ -922,7 +942,7 @@ body {
     font-size: 1.2em;
   }
   .contacto div iframe {
-    margin-top: 1em;
+    margin-top: 2em;
     position: relative;
     left: 2em;
     width: 60%;
@@ -948,8 +968,8 @@ body {
   }
   .contacto .redes {
     word-spacing: 10px;
-    margin-top: 0em;
-    padding-bottom: 1em;
+    margin-top: 1em;
+    padding-bottom: 0em;
     margin-left: -1em;
     margin-right: 0em;
     width: 200px;
@@ -963,15 +983,17 @@ body {
 
   footer {
     display: flex;
-    margin-top: -3em;
+    margin-top: 0em;
     align-items: center;
   }
   footer .footerUno {
+    margin-top: 2em;
     margin-left: 2em;
   }
   footer .footerDos {
-    margin-left: 5em;
-    margin-right: auto;
+    margin-top: 2em;
+    margin-left: 0em;
+    margin-right: 2em;
   }
 
   .proyecto-1 {
@@ -1041,11 +1063,11 @@ body {
   }
 
   .contacto {
-    margin-bottom: -2em;
+    margin-bottom: 0em;
   }
 
   .footer-proyectos {
-    margin-top: 0em;
+    margin-top: -0.05em;
     width: 100%;
   }
   .footer-proyectos .footerUno {
@@ -1053,7 +1075,7 @@ body {
     margin-left: 2em;
   }
   .footer-proyectos .footerDos {
-    margin-top: 1em;
+    margin-top: 0em;
     margin-left: -15em;
     margin-right: 2em;
   }

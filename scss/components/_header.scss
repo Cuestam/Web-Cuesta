@@ -1,7 +1,7 @@
 @import '../base/variables';
 
 .container-uno {
-    background-image: url('/imagenes/fondogif.gif');
+    background-image: url('/imagenes/Fondo1.webp');
     background-size: cover;
     width: 100%;
     border-bottom: solid white 2px;
@@ -17,6 +17,7 @@
         position: fixed;
 
         ul {
+               margin-right: 0em;
             li {
                 display: inline-block;
                 margin-top: 1em;
@@ -87,4 +88,8 @@
         display: none;
     }
 
+}
+
+.animate__animated.animate__slideInLeft {
+    --animate-duration: 2s;
 }
