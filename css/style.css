@@ -69,6 +69,7 @@
 .container-uno h1 {
   display: inline-block;
   margin-top: 6em;
+  margin-bottom: 1em;
   color: white;
   margin-left: 0.5em;
   font-size: 5.5em;
@@ -506,7 +507,7 @@ body {
   background-image: url("/imagenes/fondo5.jpg");
 }
 
-@media only screen and (min-width: 577px) and (max-width: 1024px) {
+@media only screen and (min-width: 577px) and (max-width: 1224px) {
   Header {
     margin-right: 0em;
   }
@@ -735,9 +736,18 @@ body {
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 769px) {
-  header .titulo-h1 {
-    margin-left: 0em;
-    font-size: 6em;
+  Header {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  Header nav ul {
+    margin-right: 0em;
+  }
+  Header .titulo-h1 {
+    margin-left: auto;
+    font-size: 5em;
+    margin-bottom: 1em;
+    margin-right: auto;
   }
 
   .presentacion {
@@ -748,6 +758,21 @@ body {
   }
   .presentacion .parrafo1 p {
     font-size: 1.5em;
+  }
+
+  .modal {
+    background-color: rgba(0, 0, 0, 0.829);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .modal .modal-style {
+    width: 100%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    background-color: black;
   }
 
   section {
@@ -777,7 +802,8 @@ body {
 }
 @media only screen and (max-width: 576px) {
   body {
-    background-image: url("/imagenes/fondo5.webp");
+    background-image: none;
+    background-color: black;
   }
 
   header .enlaces {
@@ -791,7 +817,7 @@ body {
   }
   header .hamburguer ul li {
     text-align: center;
-    margin-top: 4em;
+    margin-top: 3.5em;
   }
   header .hamburguer ul li a {
     color: white;

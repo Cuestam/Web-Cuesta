@@ -1,4 +1,4 @@
-@media only screen and (min-width: 577px) and (max-width:1024px) {
+@media only screen and (min-width: 577px) and (max-width:1224px) {
 
     Header {
         margin-right: 0em;
@@ -309,10 +309,22 @@
 
     //heaeder
 
-    header {
+  
+    Header {
+        margin-left: auto;
+        margin-right: auto;
+        nav {
+
+            ul {
+                margin-right: 0em;
+            }
+        }
+
         .titulo-h1 {
-            margin-left: 0em;
-            font-size: 6em;
+            margin-left: auto;
+            font-size: 5em;
+            margin-bottom: 1em;
+            margin-right: auto;
         }
     }
 
@@ -329,6 +341,21 @@
             p {
                 font-size: 1.5em;
             }
+        }
+    }
+    .modal {
+        background-color: $color-rgba;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+        .modal-style {
+            width: 100%;
+            height: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3em;
+            background-color:black;
         }
     }
 
@@ -374,9 +401,9 @@
 
 @media only screen and (max-width: 576px) {
 
-    
     body {
-        background-image: url('/imagenes/fondo5.webp');
+        background-image: none;
+        background-color: black;
     }
 
     //Header
@@ -395,7 +422,7 @@
             ul {
                 li { 
                     text-align: center;
-                    margin-top: 4em;
+                    margin-top: 3.5em;
 
                     a {
 
