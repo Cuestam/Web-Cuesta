@@ -83,10 +83,9 @@
   --animate-duration: 2s;
 }
 
-.modal-style {
-  position: relative;
-  width: 50em;
-  height: 33em;
+.modal .modal-style {
+  width: 160%;
+  height: 100%;
   display: inline-block;
   margin-left: -12em;
   margin-top: 3em;
@@ -94,10 +93,10 @@
   opacity: 0.95;
   z-index: 9999999;
 }
-.modal-style .modal-title {
+.modal .modal-style .modal-title {
   color: white;
 }
-.modal-style .texto-modal {
+.modal .modal-style .texto-modal {
   margin-bottom: 1em;
   display: block;
   color: white;
@@ -332,12 +331,14 @@ footer .footerDos:hover {
   z-index: 999;
   transition: ease-in-out 0.5s;
   top: 0;
+  margin-right: auto;
 }
 .enlaces-p img {
   width: 3.5%;
   margin: 0.5em 0em 0.5em 1.5em;
 }
 .enlaces-p ul {
+  margin-left: auto;
   margin-right: 2.5em;
 }
 .enlaces-p ul li {
@@ -573,6 +574,7 @@ body {
   section {
     margin-top: 1em;
     margin-bottom: auto;
+    overflow-x: hidden;
   }
   section .container-titulo h2 {
     margin-top: auto;
@@ -761,6 +763,7 @@ body {
   }
 
   .modal {
+    overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.829);
     margin-left: auto;
     margin-right: auto;
@@ -848,6 +851,7 @@ body {
     margin-left: 0.5em;
   }
   .presentacion .parrafo1 p {
+    margin-top: 1em;
     margin-left: 0.5em;
     margin-right: auto;
     font-size: 1em;
@@ -857,6 +861,7 @@ body {
     margin-top: auto;
     margin-left: 0em;
     width: 100%;
+    height: auto;
     justify-content: space-evenly;
   }
   .presentacion .container-parrafos .parrafo2 {
@@ -877,12 +882,15 @@ body {
     display: none;
   }
 
+  section {
+    overflow: hidden;
+  }
   section .container-titulo {
     width: 63%;
     height: 28px;
     display: flex;
     align-items: center;
-    margin-top: 6em;
+    margin-top: 1em;
     margin-bottom: 1em;
   }
   section .container-titulo h2 {
@@ -894,8 +902,9 @@ body {
   }
   section .container-proyectos {
     display: grid;
-    margin-top: auto;
     grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
   }
   section .container-proyectos h3 {
     font-size: 1em;
@@ -998,7 +1007,7 @@ body {
     padding-bottom: 0em;
     margin-left: -1em;
     margin-right: 0em;
-    width: 200px;
+    width: 250px;
   }
   .contacto .redes li a img {
     width: 15%;
@@ -1133,7 +1142,7 @@ section .cards {
 section .cards .card {
   width: 60%;
   height: 80%;
-  background-color: #81b29a;
+  background-color: #81b29ae5;
   margin: 2em auto 1em auto;
 }
 section .cards .card img {

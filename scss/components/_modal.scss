@@ -1,14 +1,15 @@
+.modal{
 .modal-style {
-    position: relative;
-    width: 50em;
-    height: 33em;
+
+    width: 160%;
+    height: 100%;
     display: inline-block;
     margin-left: -12em;
     margin-top: 3em;
     background-color: rgb(20, 20, 20);
     opacity: 0.95;
     z-index: 9999999;
-
+    
     .modal-title {
         color: white;
     }
@@ -18,4 +19,5 @@
         display: block;
         color: white;
     }
+}
 }

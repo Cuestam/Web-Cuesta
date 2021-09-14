@@ -22,7 +22,6 @@
         background-color: $color-rgba;
         margin-left: 0em;
         
-
         .modal-style {
             width: 150%;
             height: 60%;
@@ -37,7 +36,7 @@
     .presentacion {
         margin-top: 3em;
         margin-bottom: auto;
-
+        
         .nosotros-titulo {
             font-size: 1em;
             margin-bottom: 1em;
@@ -53,6 +52,7 @@
             margin: 2.5em auto 0em 0.5em;
             width: 100%;
             justify-content: space-evenly;
+ 
 
             .parrafo2 {
                 margin-top: -1.2em;
@@ -76,6 +76,7 @@
     section {
         margin-top: 1em;
         margin-bottom: auto;
+        overflow-x: hidden;
 
         .container-titulo {
             h2 {
@@ -154,7 +155,6 @@
     .contacto {
         width: 100%;
         margin-top: auto;
-     
         .texto-1 {
             display: none;
         }
@@ -221,7 +221,6 @@
     }
 
     .proyecto-1 {
-        
         .titulo-casa {
             h1 {
                 font-size: 2em;
@@ -229,7 +228,6 @@
                 text-transform: uppercase;
             }
         }
-
 
         .container {
             margin-top: 1em;
@@ -308,9 +306,8 @@
 @media only screen and (min-width: 577px) and (max-width:769px) {
 
     //heaeder
-
-  
     Header {
+        
         margin-left: auto;
         margin-right: auto;
         nav {
@@ -344,6 +341,7 @@
         }
     }
     .modal {
+        overflow-x:hidden;
         background-color: $color-rgba;
         margin-left: auto;
         margin-right: auto;
@@ -401,6 +399,7 @@
 
 @media only screen and (max-width: 576px) {
 
+  
     body {
         background-image: none;
         background-color: black;
@@ -441,7 +440,7 @@
             margin-top: 7em;
             margin-left: 0em;
             font-size: 2.5em;
-
+             
         }
     }
 
@@ -465,6 +464,7 @@
 
         .parrafo1 {
             p {
+                margin-top: 1em;
                 margin-left: 0.5em;
                 margin-right: auto;
                 font-size: 1em;
@@ -476,6 +476,7 @@
             margin-top: auto;
             margin-left: 0em;
             width: 100%;
+            height: auto;
             justify-content: space-evenly;
 
             .parrafo2 {
@@ -502,13 +503,13 @@
     }
 
     section {
-     
+        overflow:hidden;
         .container-titulo {
             width: 63%;
             height: 28px;
             display: flex;
             align-items: center;
-            margin-top: 6em;
+            margin-top: 1em;
             margin-bottom: 1em;
 
             h2 {
@@ -523,9 +524,9 @@
 
         .container-proyectos {
             display: grid;
-            margin-top: auto;
             grid-template-columns: 1fr;
-
+            height: 100%;
+            width: 100%;
             h3 {
                 font-size: 1em;
                 margin-left: 1em;
@@ -539,13 +540,13 @@
             .carousel-1 {
                 width: 100% !important;
                 margin-left: 0em;
-
             }
 
             a {
                 img {
                     width: 100%;
                     filter: none;
+                  
 
                     &:hover {
                         transition: none;
@@ -656,11 +657,11 @@
             padding-bottom: 0em;
             margin-left: -1em;
             margin-right: 0em;
-            width: 200px;
+            width: 250px;
 
             li {
                 a {
-
+                    
                     img {
                         width: 15%;
 
@@ -739,11 +740,12 @@
             grid-template-columns: 1fr;
             align-items: center;
             margin-top: 1em;
-
+            
             .imagen1 {
                 width: 90%;
                 margin-top: -1em;
                 margin-bottom: 0em;
+                
             }
 
             .container-concepto {
