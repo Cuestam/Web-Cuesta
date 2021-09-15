@@ -19,17 +19,21 @@
     }
 
     .modal {
+        overflow-x:hidden;
         background-color: $color-rgba;
-        margin-left: 0em;
-        
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
         .modal-style {
-            width: 150%;
+            width: 120%;
             height: 60%;
-            margin-left: -7em;
-            margin-right: 0em;
+            margin-left: -3em;
+            margin-right: auto;
             margin-top: 3em;
-            background-color: rgb(43, 43, 43);
+            background-color:black;
         }
+    
     }
 
     //Nosotros
@@ -337,22 +341,6 @@
             }
         }
     }
-    .modal {
-        overflow-x:hidden;
-        background-color: $color-rgba;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-
-        .modal-style {
-            width: 100%;
-            height: 60%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 3em;
-            background-color:black;
-        }
-    }
 
     //Proyectos
     section {
@@ -403,7 +391,6 @@
         }
     }
         
-
     //Footer proyectos
     .footer-proyectos {
         margin-top: 9.65em;
