@@ -190,7 +190,7 @@
     }
 
     footer {
-        margin-top: 0em;
+        margin-top: -0.5em;
         .footerUno {
             margin-top: 3em;
         }
@@ -294,10 +294,8 @@
         .footerUno {
             margin-left: 5em;
         }
-
         .footerDos {
             margin-right: 4em;
-            
         }
     }
 
@@ -307,7 +305,6 @@
 
     //heaeder
     Header {
-        
         margin-left: auto;
         margin-right: auto;
         nav {
@@ -358,7 +355,6 @@
     }
 
     //Proyectos
-
     section {
         margin-right: auto;
         margin-bottom: -10em;
@@ -395,11 +391,34 @@
         }
     }
 
+    footer{
+        margin-top: 9.65em;
+        .footerUno {
+            margin-top: 1em;
+            margin-left: 5em;
+        }
+        .footerDos {
+            margin-right: 4em;
+            margin-top: 1em;
+        }
+    }
+        
+
+    //Footer proyectos
+    .footer-proyectos {
+        margin-top: 9.65em;
+        .footerUno {
+            margin-top: 1em;
+            margin-left: 5em;
+        }
+        .footerDos {
+            margin-right: 4em;
+        }
+    }
 }
 
 @media only screen and (max-width: 576px) {
 
-  
     body {
         background-image: none;
         background-color: black;

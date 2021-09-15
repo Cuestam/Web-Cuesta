@@ -655,7 +655,7 @@ body {
   }
 
   footer {
-    margin-top: 0em;
+    margin-top: -0.5em;
   }
   footer .footerUno {
     margin-top: 3em;
@@ -801,6 +801,29 @@ body {
   }
   .contacto .titulo-contacto h2 {
     font-size: 1.5em;
+  }
+
+  footer {
+    margin-top: 9.65em;
+  }
+  footer .footerUno {
+    margin-top: 1em;
+    margin-left: 5em;
+  }
+  footer .footerDos {
+    margin-right: 4em;
+    margin-top: 1em;
+  }
+
+  .footer-proyectos {
+    margin-top: 9.65em;
+  }
+  .footer-proyectos .footerUno {
+    margin-top: 1em;
+    margin-left: 5em;
+  }
+  .footer-proyectos .footerDos {
+    margin-right: 4em;
   }
 }
 @media only screen and (max-width: 576px) {
