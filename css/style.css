@@ -103,8 +103,8 @@
 }
 
 .presentacion .nosotros-titulo {
-  background-color: white;
   width: 40%;
+  background-color: white;
 }
 .presentacion .nosotros-titulo h2 {
   margin: 0.5em 0em 1em 1em;
@@ -153,8 +153,8 @@
 }
 
 section .container-titulo {
+  width: 40%;
   background-color: white;
-  width: 45%;
 }
 section .container-titulo h2 {
   margin: 0.5em 0em 1em 1em;
@@ -207,8 +207,8 @@ section .container-proyectos a img:hover {
   width: 100%;
 }
 .contacto .titulo-contacto {
-  background-color: white;
   width: 40%;
+  background-color: white;
 }
 .contacto .titulo-contacto h2 {
   margin: 0.5em 0em 1em 1em;
@@ -390,8 +390,8 @@ footer .footerDos:hover {
   margin-top: 7em;
 }
 .proyecto-1 .titulo-casa {
-  background-color: white;
   width: 40%;
+  background-color: white;
 }
 .proyecto-1 .titulo-casa h1 {
   margin-top: 0.5em;
@@ -577,7 +577,7 @@ body {
   section {
     margin-top: 1em;
     margin-bottom: auto;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   section .container-titulo h2 {
     margin-top: auto;
@@ -634,7 +634,7 @@ body {
     display: none;
   }
   .contacto .datos {
-    margin-top: 2em;
+    margin-top: 3.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -719,11 +719,11 @@ body {
     margin-top: -2em;
   }
   .proyecto-1 .container-imagenes .container-concepto .descripcion {
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: left;
   }
   .proyecto-1 .container-imagenes .container-concepto .concepto {
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
   }
   .proyecto-1 .container-imagenes .imagen-chica img {
@@ -906,8 +906,6 @@ body {
   }
   section .container-titulo h2 {
     margin: 0em;
-    color: black;
-    font-family: "Montserrat", sans-serif;
     font-size: 1em;
     margin-left: 0.5em;
   }
@@ -952,6 +950,7 @@ body {
   .clientes .titulo-clientes h2 {
     font-size: 1.2em;
     margin-left: 0.5em;
+    margin-top: 1em;
   }
   .clientes .cards {
     display: grid;
@@ -1131,17 +1130,15 @@ body {
   }
 }
 section .titulo-clientes {
-  background-color: white;
   width: 40%;
+  background-color: white;
 }
 section .titulo-clientes h2 {
-  display: block;
-  font-family: "Montserrat", sans-serif;
+  margin: 0.5em 0em 1em 1em;
+  text-transform: uppercase;
+  font-family: "Montserrat";
   color: black;
   font-size: 2em;
-  margin-top: 0.5em;
-  margin-left: 1em;
-  text-transform: uppercase;
 }
 section .cards {
   display: grid;
