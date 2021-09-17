@@ -39,41 +39,41 @@
 <body>
   <main>
 
-    <!-- Encabezado y navegacion -->
-    <header class="animate__animated  animate__slideInLeft container-uno" id="inicio">
-      <nav class="enlaces">
-        <img src="/imagenes/logo.webp" alt="Logo">
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto1">Contacto</a></li>
-          <li> <button data-bs-toggle="modal" data-bs-target="#exampleModal">Mensajes</button></li>
-        </ul>
-      </nav>
-      <div class="hamburguer">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-            <ul class="ul-ham">
-              <li><a href="#inicio">Inicio</a></li>
-              <li><a href="#nosotros">Nosotros</a></li>
-              <li><a href="#proyectos">Proyectos</a></li>
-              <li><a href="#contacto1">Contacto</a></li>
-            </ul>
-          </div>
+   <!-- Encabezado y navegacion -->
+   <header class="container-uno" id="inicio">
+    <nav class="enlaces">
+      <img src="/imagenes/logo.webp" alt="Logo">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto1">Contacto</a></li>
+        <li> <button data-bs-toggle="modal" data-bs-target="#exampleModal">Mensajes</button></li>
+      </ul>
+    </nav>
+    <div class="hamburguer">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto1">Contacto</a></li>
+          </ul>
         </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <div class="container-fluid">
-            <button class="  navbar-toggler " type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </nav>
       </div>
-      <h1 class="animate__animated animate__backInLeft  titulo-h1">Una nueva manera de vivir</h1>
-    </header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="  navbar-toggler " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <h1 class="animate__animated animate__backInLeft  titulo-h1">Una nueva manera de vivir</h1>
+  </header>
 
     <!-- Modal -->
     <div class="modal fade row" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -454,18 +454,6 @@
 
   <!-- SCRIPTS -->
 
-  <script>
-    let ubicacionPrincipal = window.pageYOffset;
-    window.addEventListener("scroll", function () {
-      let desplazamientoActual = window.pageYOffset;
-      if (ubicacionPrincipal >= desplazamientoActual) {
-        document.getElementsByTagName("nav")[0].style.top = "0px"
-      } else {
-        document.getElementsByTagName("nav")[0].style.top = "-100px"
-      }
-      ubicacionPrincipal = desplazamientoActual;
-    })
-  </script>
   <script src="smpt.js"></script>
   <script src="sender.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -479,7 +467,6 @@
   <script>
     AOS.init();
   </script>
-
 </body>
 
 </html>

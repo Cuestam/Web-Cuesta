@@ -8,10 +8,9 @@ section {
         }
     }
 
-   
     .container-proyectos {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;  
         position: relative;
         
         .carousel-1{
@@ -39,9 +38,8 @@ section {
              margin-left: 1.3em;
          }
         
-     
           a{
-             
+           
              img {
                  filter: grayscale(80%);
                  width: 100%;
@@ -52,8 +50,7 @@ section {
                      filter: grayscale(0%);
                  }
  
- 
-             }
+            }
          }
         
      }

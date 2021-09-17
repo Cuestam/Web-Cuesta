@@ -15,10 +15,9 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.829);
+  transition: ease-in-out 0.5s;
   position: fixed;
-}
-.container-uno .enlaces ul {
-  margin-right: 0em;
+  top: 0em;
 }
 .container-uno .enlaces ul li {
   display: inline-block;
@@ -84,9 +83,9 @@
 }
 
 .modal .modal-style {
+  display: inline-block;
   width: 160%;
   height: 100%;
-  display: inline-block;
   margin-left: -12em;
   margin-top: 3em;
   background-color: #141414;

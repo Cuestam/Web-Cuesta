@@ -1,23 +1,22 @@
-.modal{
-.modal-style {
+.modal {
+    .modal-style {
+        display: inline-block;
+        width: 160%;
+        height: 100%;
+        margin-left: -12em;
+        margin-top: 3em;
+        background-color: rgb(20, 20, 20);
+        opacity: 0.95;
+        z-index: 9999999;
 
-    width: 160%;
-    height: 100%;
-    display: inline-block;
-    margin-left: -12em;
-    margin-top: 3em;
-    background-color: rgb(20, 20, 20);
-    opacity: 0.95;
-    z-index: 9999999;
-    
-    .modal-title {
-        color: white;
-    }
+        .modal-title {
+            color: white;
+        }
 
-    .texto-modal {
-        margin-bottom: 1em;
-        display: block;
-        color: white;
+        .texto-modal {
+            margin-bottom: 1em;
+            display: block;
+            color: white;
+        }
     }
-}
 }

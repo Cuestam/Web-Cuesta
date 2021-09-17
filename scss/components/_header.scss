@@ -8,16 +8,19 @@
     opacity: 0.9;
     position: relative;
     z-index: 99;
-
+   
+   
     .enlaces {
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: $color-rgba;
+        transition: ease-in-out 0.5s;
         position: fixed;
-
-        ul {
-               margin-right: 0em;
+        top: 0em;
+     
+         ul {
+              
             li {
                 display: inline-block;
                 margin-top: 1em;
