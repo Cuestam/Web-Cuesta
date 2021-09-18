@@ -23,9 +23,9 @@ function sender(nombre, telefono, email, mensaje) {
         return  alert('Complete todos los campos'); }
 
     Email.send({
-        SecureToken: 'token de seguridad generado por https://smtp.js', //Para configurar los permisos de seguridad SSL
-        To: 'correo de destino', //Donde va a llegar el mail
-        From: 'correo de origen', //Desde donde se va a enviar. Tiene que ser el mismo que genero el token de seguridad
+        SecureToken: '2c4afccd-6479-4c97-b185-704dc598b7fd', 
+        To: 'cumau2013@gmail.com', 
+        From: 'cumau2013@gmail.com', 
         Subject: `${nombre} envio un mensaje`,
         Body: `
                 <p>Nombre: <b>${nombre}</b></p>
@@ -34,12 +34,9 @@ function sender(nombre, telefono, email, mensaje) {
                 <p>Mensaje: <b>${mensaje}</b></p>
                 `
     }).then(
-        message => swal("Correo enviado exitosamente", "en breve nos pondremos en contacto", "success")
-        //Se utiliza la libreria sweetAlert para generar ventanas emergentes tipo popup, se cargo el cdn en el index para mostrar funcionamiento
-        //mas info en https://sweetalert.js.org/
+        message => swal("Mensaje enviado exitosamente", "en breve nos pondremos en contacto", "success")
     )
     .catch(error => swal("Error al enviar el mensaje", "disculpa las molestias", "error"))
-    //en caso de error sale otro popup informando esto
 }
 
 

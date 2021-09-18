@@ -87,13 +87,13 @@
         font-size: 5.5em;
         font-family: 'Montserrat', sans-serif;
     }
-
+  
     .hamburguer {
         display: none;
+  }
+
+}
+
+    .animate__animated.animate__backInLeft {
+        --animate-duration: 2s;
     }
-
-}
-
-.animate__animated.animate__slideInLeft {
-    --animate-duration: 2s;
-}

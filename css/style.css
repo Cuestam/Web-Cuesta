@@ -78,7 +78,7 @@
   display: none;
 }
 
-.animate__animated.animate__slideInLeft {
+.animate__animated.animate__backInLeft {
   --animate-duration: 2s;
 }
 

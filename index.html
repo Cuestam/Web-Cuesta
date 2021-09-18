@@ -30,48 +30,48 @@
   <link rel="stylesheet" href="/css/style.css">
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/7d4193cf05.js" crossorigin="anonymous"></script>
-   
+
   <title>HEIM - Estudio de diseño y arquitectura</title>
 </head>
 
 <body>
   <main>
 
-   <!-- Encabezado y navegacion -->
-   <header class="container-uno" id="inicio">
-    <nav class="enlaces">
-      <img src="/imagenes/logo.webp" alt="Logo">
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto1">Contacto</a></li>
-        <li> <button data-bs-toggle="modal" data-bs-target="#exampleModal">Mensajes</button></li>
-      </ul>
-    </nav>
-    <div class="hamburguer">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto1">Contacto</a></li>
-          </ul>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <button class="  navbar-toggler " type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
+    <!-- Encabezado y navegacion -->
+    <header class="container-uno" id="inicio">
+      <nav class="enlaces">
+        <img src="/imagenes/logo.webp" alt="Logo">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto1">Contacto</a></li>
+          <li> <button data-bs-toggle="modal" data-bs-target="#exampleModal">Mensajes</button></li>
+        </ul>
       </nav>
-    </div>
-    <h1 class="animate__animated animate__backInLeft  titulo-h1">Una nueva manera de vivir</h1>
-  </header>
+      <div class="hamburguer">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto1">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="  navbar-toggler " type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+        <h1 class="animate__animated animate__backInLeft">Una nueva manera de vivir</h1>
+    </header>
 
     <!-- Modal -->
     <div class="modal fade row" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -82,32 +82,32 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <form id="formulario">
-          <div class="modal-body ">
-            <div class="cotainer my-3">
-              <div class="row">
-                <h2 class="texto-modal p-2">Dejanos un mensaje y cotizamos tu proyecto sin cargo!</h2>
-                <div class="col my-2">
-                  <input type="text" class="form-control" placeholder="Nombre" id="nombre" aria-label="First name">
+            <div class="modal-body ">
+              <div class="cotainer my-3">
+                <div class="row">
+                  <h2 class="texto-modal p-2">Dejanos un mensaje y cotizamos tu proyecto sin cargo!</h2>
+                  <div class="col my-2">
+                    <input type="text" class="form-control" placeholder="Nombre" id="nombre" aria-label="First name">
+                  </div>
+                  <div class="col my-2">
+                    <input type="text" class="form-control" placeholder="Apellido" id="apellido" aria-label="Last name">
+                  </div>
                 </div>
-                <div class="col my-2">
-                  <input type="text" class="form-control" placeholder="Apellido" id="apellido" aria-label="Last name">
+                <div class="mb-3 my-2 ">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+                    py-2>
                 </div>
-              </div>
-              <div class="mb-3 my-2 ">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
-                  py-2>
-              </div>
-              <div class="mb-3 my-2">
-                <textarea class="form-control" placeholder="Mensaje" id="exampleFormControlTextarea1"
-                  rows="3"></textarea>
+                <div class="mb-3 my-2">
+                  <textarea class="form-control" placeholder="Mensaje" id="exampleFormControlTextarea1"
+                    rows="3"></textarea>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
-        </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -465,4 +465,5 @@
     AOS.init();
   </script>
 </body>
+
 </html>
