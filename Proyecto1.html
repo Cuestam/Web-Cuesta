@@ -71,44 +71,48 @@
             </div>
         </header>
 
-  <!-- Modal -->
-  <div class="modal fade row" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content modal-style">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Mensajes</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <form id="formulario">
-        <div class="modal-body ">
-          <div class="cotainer my-3">
-            <div class="row">
-              <h2 class="texto-modal p-2">Dejanos un mensaje y cotizamos tu proyecto sin cargo!</h2>
-              <div class="col my-2">
-                <input type="text" class="form-control" placeholder="Nombre" id="nombre" aria-label="First name">
-              </div>
-              <div class="col my-2">
-                <input type="text" class="form-control" placeholder="Apellido" id="apellido" aria-label="Last name">
-              </div>
+        <!-- Modal -->
+        <div class="modal fade row" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-style">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Mensajes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form id="formulario">
+                        <div class="modal-body ">
+                            <div class="cotainer my-3">
+                                <div class="row">
+                                    <h2 class="texto-modal p-2">Dejanos un mensaje y cotizamos tu proyecto sin cargo!
+                                    </h2>
+                                    <div class="col my-2">
+                                        <input type="text" class="form-control" placeholder="Nombre" id="nombre"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col my-2">
+                                        <input type="text" class="form-control" placeholder="Apellido" id="apellido"
+                                            aria-label="Last name">
+                                    </div>
+                                </div>
+                                <div class="mb-3 my-2 ">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com" py-2>
+                                </div>
+                                <div class="mb-3 my-2">
+                                    <textarea class="form-control" placeholder="Mensaje"
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="mb-3 my-2 ">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
-                py-2>
-            </div>
-            <div class="mb-3 my-2">
-              <textarea class="form-control" placeholder="Mensaje" id="exampleFormControlTextarea1"
-                rows="3"></textarea>
-            </div>
-          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-      </form>
-      </div>
-    </div>
-  </div>
 
         <!-- Sección de imagenes -->
         <section class="proyecto-1" data-aos="fade-up" data-aos-duration="1500">
@@ -167,12 +171,10 @@
         <!-- Cambio de sección -->
         <div class="navegacion-2">
             <div class="anterior">
-                <a href="/Proyecto6.html"><img src="/imagenes/anterior.webp"
-                        alt="Flecha hacia la izquierda"></a>
+                <a href="/Proyecto6.html"><img src="/imagenes/anterior.webp" alt="Flecha hacia la izquierda"></a>
             </div>
             <div class="siguiente">
-                <a href="/Proyecto2.html"><img src="/imagenes/siguiente.webp"
-                        alt="Flecha hacia la derecha"></a>
+                <a href="/Proyecto2.html"><img src="/imagenes/siguiente.webp" alt="Flecha hacia la derecha"></a>
             </div>
 
         </div>
@@ -242,6 +244,7 @@
     <!-- Scripts-->
     <script src="/Javascript/sender.js"></script>
     <script src="/Javascript/smpt.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
     </script>
@@ -253,4 +256,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>

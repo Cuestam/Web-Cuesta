@@ -80,33 +80,36 @@
                         <h5 class="modal-title" id="exampleModalLabel">Mensajes</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body ">
-                        <div class="cotainer my-3">
-                            <div class="row">
-                                <h2 class="texto-modal p-2">Dejanos un mensaje y cotizamos tu proyecto sin cargo!</h2>
-                                <div class="col my-2">
-                                    <input type="text" class="form-control" placeholder="Nombre"
-                                        aria-label="First name">
+                    <form id="formulario">
+                        <div class="modal-body ">
+                            <div class="cotainer my-3">
+                                <div class="row">
+                                    <h2 class="texto-modal p-2">Dejanos un mensaje y cotizamos tu proyecto sin cargo!
+                                    </h2>
+                                    <div class="col my-2">
+                                        <input type="text" class="form-control" placeholder="Nombre" id="nombre"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col my-2">
+                                        <input type="text" class="form-control" placeholder="Apellido" id="apellido"
+                                            aria-label="Last name">
+                                    </div>
                                 </div>
-                                <div class="col my-2">
-                                    <input type="text" class="form-control" placeholder="Apellido"
-                                        aria-label="Last name">
+                                <div class="mb-3 my-2 ">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com" py-2>
                                 </div>
-                            </div>
-                            <div class="mb-3 my-2 ">
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com" py-2>
-                            </div>
-                            <div class="mb-3 my-2">
-                                <textarea class="form-control" placeholder="Mensaje" id="exampleFormControlTextarea1"
-                                    rows="3"></textarea>
+                                <div class="mb-3 my-2">
+                                    <textarea class="form-control" placeholder="Mensaje"
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary">Enviar</button>
-                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -169,12 +172,10 @@
         <!-- Cambio de sección -->
         <div class="navegacion-2">
             <div class="anterior">
-                <a href="/Proyecto1.html"><img src="/imagenes/anterior.webp"
-                        alt="Flecha hacia la izquierda"></a>
+                <a href="/Proyecto1.html"><img src="/imagenes/anterior.webp" alt="Flecha hacia la izquierda"></a>
             </div>
             <div class="siguiente">
-                <a href="/Proyecto3.html"><img src="/imagenes/siguiente.webp"
-                        alt="Flecha hacia la derecha"></a>
+                <a href="/Proyecto3.html"><img src="/imagenes/siguiente.webp" alt="Flecha hacia la derecha"></a>
             </div>
         </div>
 
@@ -239,6 +240,9 @@
     </footer>
 
     <!-- Scripts-->
+    <script src="/Javascript/sender.js"></script>
+    <script src="/Javascript/smpt.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
     </script>
@@ -246,22 +250,8 @@
         integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
     </script>
     <script src=" https://unpkg.com/aos@next/dist/aos.js "> </script>
-
     <script>
         AOS.init();
-    </script>
-
-    <script>
-        let ubicacionPrincipal = window.pageYOffset;
-        window.addEventListener("scroll", function () {
-            let desplazamientoActual = window.pageYOffset;
-            if (ubicacionPrincipal >= desplazamientoActual) {
-                document.getElementsByTagName("nav")[0].style.top = "0px"
-            } else {
-                document.getElementsByTagName("nav")[0].style.top = "-100px"
-            }
-            ubicacionPrincipal = desplazamientoActual;
-        })
     </script>
 </body>
 
