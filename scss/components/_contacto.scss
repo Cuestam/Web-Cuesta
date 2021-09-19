@@ -4,6 +4,10 @@
     background-color: $color-rgba;
     width: 100%;
 
+    .form-mobile{ 
+        display: none;
+    }
+
     .titulo-contacto {
         @include ContenedorTitulo (40%, white);
 
@@ -74,7 +78,7 @@
                 margin-top: -1em;
             }
         }
-
+       
     }
 
     .texto-1 {
